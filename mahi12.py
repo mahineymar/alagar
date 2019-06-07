@@ -1,0 +1,11 @@
+a=int(input())
+s=0
+d=a
+while(d>0):
+       q=d%10
+       s=s+(q**3)
+       d=d//10
+if(a==s):
+       print("yes")
+else:
+       print("no")
